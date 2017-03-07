@@ -1,0 +1,220 @@
+@import 'basic-reset.css';
+@import 'modest-grid.css';
+
+/*
+Theme Name: WebPrintAudio Full Development Notes Theme
+Author: codemattcode
+Author URI: http://webprintaudio.com
+Version: 1.0
+*/
+* {
+  margin: 0;
+  padding: 0;
+}
+html {
+    box-sizing: border-box;
+  }
+  
+  *, *:before, *:after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+
+.clearfix {
+  clear: both;
+}
+
+
+body {
+  font-family: arial;
+  background: #fff5e4;
+  color: #333;
+}
+a:link,
+a:visited {
+  color: #808080;
+}
+
+p {
+  line-height: 1.65em;
+}
+
+/*.wrapper {
+  max-width: 1140px;
+  width: 90%;
+  margin: auto;
+}*/
+header {
+  background: #c9dcff;
+  padding: 30px 0;
+  margin-bottom: 20px;
+}
+
+/* Navigation Menus */
+.site-nav {
+  height: 30px;
+  clear: both;
+}
+.site-nav ul {
+  margin: 15px;
+  margin-left: 0;
+  padding: 0;
+}
+.site-nav ul:before, site-nav ul:after {
+  content: " "; 
+  display: table;
+}
+.site-nav ul:after { clear: both; }
+.site-nav ul { *zoom: 1; }
+.site-nav ul li {
+  list-style: none;
+  float: left;
+  margin-right: 10px;
+}
+/* .current_page_item and .current-page-ancestor are wordpress features s*/
+.site-nav ul li.current-menu-item a:link,
+.site-nav ul li.current-menu-item a:visited,
+.site-nav ul li.current-page-ancestor a:link,
+.site-nav ul li.current-page-ancestor a:visited {
+  color: red;
+}
+/*.site-nav ul li:last-of-type {
+  margin-right: 0;
+}*/
+.site-header nav a {
+  text-decoration: none;
+  display: block;
+  padding: 10px 0;
+}
+nav.site-nav a {
+  text-decoration: none;
+  display: block;
+}
+
+
+.copyright {
+  padding: 10px 0;
+  float: none;
+  clear: both;
+}
+.site-footer {
+  padding-top: 15px;
+  /*border-top: 1px solid #999;*/
+}
+.nav-footer ul li{
+  padding-right: 10px;
+  border-right: 1px dotted #BBB;
+}
+
+.masthead {
+  background: red;
+}
+
+
+/* INDEX PAGE POSTS */
+article.post {
+  margin: 30px 0;
+  position: relative;   
+}
+a.post-title {
+  color: green;
+}
+
+/* conditional logic add this class to the title link tag */
+a.title-red {
+  color: red;
+}
+
+/* FEATURED IMAGE */
+.post-thumbnail {
+  margin-top: 30px;
+}
+
+
+
+
+/* SINGLE POSTS */
+
+
+
+
+
+/* STANDARD PAGE */
+/*article.page {
+  margin: 30px 0;
+}*/
+h2.page-title {
+  color: purple;
+}
+.page-copy {
+  color: blue;
+}
+
+/* SUB MENU NAVIGATION */
+.page-sub_menu {
+  font-size: 1.2em
+}
+.sub-menu-links {
+  font-size: 80%;
+}
+/* .current_page_item is a wordpress feature */
+.sub-menu-links .current_page_item a:link,
+.sub-menu-links .current_page_item a:visited {
+  border-bottom: 1px solid #333;
+  cursor: default;
+}
+span.parent-link {
+  float: left;
+  margin-right: 10px;
+  padding-right: 10px;
+  border-right: 1px solid #ddd;
+}
+
+
+
+
+
+/* SPECIAL PAGE */
+.test {
+  border: 3px solid red;
+}
+
+
+
+
+
+
+/* TEMPLATE */
+h1.template-title {
+  color: red;
+  margin-bottom: 20px;
+}
+.template {
+  border: 1px solid red;
+  padding: 30px;
+  margin: 20px;
+}
+
+
+/* WIDGETS */
+.widget {
+  padding: 50px;
+}
+
+
+/* FOOTER CALLOUT SECTION | CUSTOM EDITABLE THEME CONTENT */
+.footer-callout {
+  width: 100%;
+  background-color: #ddd;
+  padding: 20px;
+  margin: 30px 0 0 0 ;
+}
+.footer-callout {
+  float: left;
+  width: 30%;
+}
+.footer-callout-text {
+  float: right;
+  width: 67%;
+}
